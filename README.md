@@ -1,6 +1,6 @@
 # 🔁 CI/CD Pipeline on AWS ECS Fargate
 
-![CI/CD Pipeline](https://github.com/EniyavanM/my-cicd-app/actions/workflows/deploy.yml/badge.svg)
+![CI/CD Pipeline](https://github.com/EniyavanM/CI-CD-Pipeline-on-AWS/actions/workflows/deploy.yml/badge.svg)
 
 ## 📌 Overview
 Automated CI/CD pipeline that deploys a Node.js REST API from GitHub to
