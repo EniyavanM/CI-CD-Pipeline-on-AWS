@@ -32,9 +32,10 @@ a Docker image, pushes to ECR, and deploys with zero downtime.
 | AWS ECR | Container registry |
 | AWS ECS Fargate | Serverless container hosting |
 | AWS ALB | Load balancing + health checks |
-| Node.js + Express | Application |
+| Python+FastApi | Application |
 | Jest + Supertest | Testing |
-| Slack API | Deployment notifications |
+
+Additionally we can use slack notification send alert when deploment success or failure.
 
 
 ## 📊 Pipeline Run Time
