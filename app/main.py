@@ -48,3 +48,7 @@ def status():
         "version": "1.0.0",
         "status": "running"
     }
+
+@app.get("/demo")
+def demo():
+    return {"demo": "eniyavan-2026"}
