@@ -40,3 +40,11 @@ def get_item(item_id: int) -> Item:
     if item_id not in _items:
         raise HTTPException(status_code=404, detail="Item not found")
     return Item(id=item_id, **_items[item_id])
+
+@app.get("/api/status")
+def status():
+    return {
+        "app": "my-cicd-app",
+        "version": "1.0.0",
+        "status": "running"
+    }
