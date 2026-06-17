@@ -7,10 +7,11 @@ Automated CI/CD pipeline that deploys a Node.js REST API from GitHub to
 AWS ECS Fargate. Every commit to `main` triggers automated tests, builds
 a Docker image, pushes to ECR, and deploys with zero downtime.
 
-**Live URL:** http://your-alb-dns.ap-south-1.elb.amazonaws.com/health
+**Live URL:** http://my-cicd-alb-367147798.ap-south-1.elb.amazonaws.com/health
 
 ## 🏗 Architecture
-[include your architecture diagram here - can be a PNG]
+<img width="836" height="490" alt="image" src="https://github.com/user-attachments/assets/38adc316-bfbe-4ca3-9976-2f2222c469e5" />
+
 
 `Developer → GitHub Actions (test → build → push → deploy) → AWS ECS Fargate`
 
@@ -35,16 +36,6 @@ a Docker image, pushes to ECR, and deploys with zero downtime.
 | Jest + Supertest | Testing |
 | Slack API | Deployment notifications |
 
-## 🚀 How to Run Locally
-```bash
-git clone https://github.com/YOUR_USERNAME/my-cicd-app
-cd my-cicd-app
-npm install
-npm test          # Run all tests
-npm start         # Start server on :3000
-# OR
-docker-compose up --build
-```
 
 ## 📊 Pipeline Run Time
 | Stage | Time |
