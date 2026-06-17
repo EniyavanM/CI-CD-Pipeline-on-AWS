@@ -18,8 +18,7 @@ class Item(ItemCreate):
 
 @app.get("/health")
 def health() -> dict[str, str]:
-    return {"status": "ok",
-    "version":"1.0"}
+    return {"status": "ok"}
 
 
 @app.get("/items", response_model=list[Item])
