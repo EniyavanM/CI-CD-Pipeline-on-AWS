@@ -45,7 +45,7 @@ def get_item(item_id: int) -> Item:
 def status():
     return {
         "app": "my-cicd-app",
-        "version": "1.0.0",
+        "version": "1.0.0.0",
         "status": "running"
     }
 
