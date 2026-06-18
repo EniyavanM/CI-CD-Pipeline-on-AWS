@@ -45,10 +45,10 @@ def get_item(item_id: int) -> Item:
 def status():
     return {
         "app": "my-cicd-app",
-        "version": "1.0.0",
+        "version": "2.0.0",
         "status": "running"
     }
 
 @app.get("/demo")
 def demo():
-    return {"demo": "eniyavan-2026"}
+    return {"demo": "eniyavan-2027"}
