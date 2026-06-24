@@ -3,7 +3,7 @@
 ![CI/CD Pipeline](https://github.com/EniyavanM/CI-CD-Pipeline-on-AWS/actions/workflows/deploy.yml/badge.svg)
 
 ## 📌 Overview
-Automated CI/CD pipeline that deploys a Node.js REST API from GitHub to
+Automated CI/CD pipeline that deploys a Python API from GitHub to
 AWS ECS Fargate. Every commit to `main` triggers automated tests, builds
 a Docker image, pushes to ECR, and deploys with zero downtime.
 
